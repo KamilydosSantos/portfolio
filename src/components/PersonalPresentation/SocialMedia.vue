@@ -16,9 +16,9 @@
 </template>
 
 <script>
-import LinkButton from "./LinkButton.vue";
-import LinkedInIcon from "./icons/LinkedInIcon.vue";
-import GitHubIcon from "./icons/GitHubIcon.vue";
+import LinkButton from "../LinkButton.vue";
+import LinkedInIcon from "../icons/LinkedInIcon.vue";
+import GitHubIcon from "../icons/GitHubIcon.vue";
 
 export default {
   name: "SocialMedia",

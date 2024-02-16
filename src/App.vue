@@ -1,16 +1,19 @@
 <template>
-  <div class="m-8">
+  <div>
     <PersonalPresentation />
+    <AboutMe />
   </div>
 </template>
 
 <script>
-import PersonalPresentation from "./components/PersonalPresentation.vue";
+import AboutMe from "./components/AboutMe/AboutMe.vue";
+import PersonalPresentation from "./components/PersonalPresentation/PersonalPresentation.vue";
 
 export default {
   name: "App",
   components: {
     PersonalPresentation,
+    AboutMe,
   },
 };
 </script>
