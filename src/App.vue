@@ -2,18 +2,21 @@
   <div>
     <PersonalPresentation />
     <AboutMe />
+    <MyProjects />
   </div>
 </template>
 
 <script>
 import AboutMe from "./components/AboutMe/AboutMe.vue";
 import PersonalPresentation from "./components/PersonalPresentation/PersonalPresentation.vue";
+import MyProjects from "./components/MyProjects/MyProjects.vue";
 
 export default {
   name: "App",
   components: {
     PersonalPresentation,
     AboutMe,
+    MyProjects,
   },
 };
 </script>

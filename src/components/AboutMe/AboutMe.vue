@@ -2,7 +2,7 @@
   <div class="relative">
     <div class="p-8 z-10">
       <HardSkills />
-      <h2 class="text-2xl text-white font-bold py-12">Sobre mim</h2>
+      <h2 class="text-3xl text-white font-bold py-8">Sobre mim</h2>
       <div class="flex">
         <div class="w-60"></div>
         <div class="flex flex-col gap-6">
