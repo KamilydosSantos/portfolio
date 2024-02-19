@@ -1,0 +1,79 @@
+{
+  "projects" : [
+    {
+      "id": 1,
+      "name": "Bikcraft",
+      "image": "/assets/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "deploy": "https://github.com/KamilydosSantos/bikcraft",
+      "github": "https://github.com/KamilydosSantos/bikcraft",
+      "stacks": [
+        {
+          "id": 1,
+          "name": "HTML",
+          "icon": "HtmlIcon"
+        },
+        {
+          "id": 2,
+          "name": "CSS",
+          "icon": "CssIcon"
+        },
+        {
+          "id": 3,
+          "name": "JavaScript",
+          "icon": "JavaScriptIcon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Pokédex",
+      "image": "/assets/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "deploy": "https://github.com/KamilydosSantos/bikcraft",
+      "github": "https://github.com/KamilydosSantos/bikcraft",
+      "stacks": [
+        {
+          "id": 1,
+          "name": "HTML",
+          "icon": "HtmlIcon"
+        },
+        {
+          "id": 2,
+          "name": "CSS",
+          "icon": "CssIcon"
+        },
+        {
+          "id": 3,
+          "name": "Vue.js",
+          "icon": "VueJsIcon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Ranek",
+      "image": "/assets/project.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "deploy": "https://github.com/KamilydosSantos/bikcraft",
+      "github": "https://github.com/KamilydosSantos/bikcraft",
+      "stacks": [
+        {
+          "id": 1,
+          "name": "HTML",
+          "icon": "HtmlIcon"
+        },
+        {
+          "id": 2,
+          "name": "CSS",
+          "icon": "CssIcon"
+        },
+        {
+          "id": 3,
+          "name": "Vue.js",
+          "icon": "VueJsIcon"
+        }
+      ]
+    }
+  ]
+}
