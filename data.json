@@ -1,9 +1,9 @@
 {
-  "projects" : [
+  "projects": [
     {
       "id": 1,
       "name": "Bikcraft",
-      "image": "/assets/project.png",
+      "image": "/project.png",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
       "deploy": "https://github.com/KamilydosSantos/bikcraft",
       "github": "https://github.com/KamilydosSantos/bikcraft",
@@ -28,10 +28,10 @@
     {
       "id": 2,
       "name": "Pokédex",
-      "image": "/assets/project.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-      "deploy": "https://github.com/KamilydosSantos/bikcraft",
-      "github": "https://github.com/KamilydosSantos/bikcraft",
+      "image": "/project.png",
+      "description": "Consectetur adipiscing elit, sed do eiusmod tempor.",
+      "deploy": "https://github.com/KamilydosSantos/pokedex",
+      "github": "https://github.com/KamilydosSantos/pokedex",
       "stacks": [
         {
           "id": 1,
@@ -53,10 +53,10 @@
     {
       "id": 3,
       "name": "Ranek",
-      "image": "/assets/project.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-      "deploy": "https://github.com/KamilydosSantos/bikcraft",
-      "github": "https://github.com/KamilydosSantos/bikcraft",
+      "image": "/project.png",
+      "description": "Adipiscing elit, sed do eiusmod tempor.",
+      "deploy": "https://github.com/KamilydosSantos/ranek",
+      "github": "https://github.com/KamilydosSantos/ranek",
       "stacks": [
         {
           "id": 1,

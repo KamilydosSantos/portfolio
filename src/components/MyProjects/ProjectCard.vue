@@ -1,22 +1,17 @@
 <template>
   <div class="bg-customBeige rounded-3xl">
-    <img class="rounded-t-3xl" src="../../assets/project.png" alt="" />
+    <img class="rounded-t-3xl" :src="image" alt="" />
     <div class="p-6">
-      <h3>Nome do Projeto</h3>
+      <h3>{{ name }}</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor.
+        {{ description }}
       </p>
       <ProjectStacks />
       <div class="flex gap-4">
-        <LinkButton
-          class="flex justify-center"
-          url="https://github.com/KamilydosSantos/bikcraft"
+        <LinkButton class="flex justify-center" :url="deploy"
           ><DeployIcon
         /></LinkButton>
-        <LinkButton
-          class="flex justify-center"
-          url="https://github.com/KamilydosSantos/bikcraft"
+        <LinkButton class="flex justify-center" :url="github"
           ><GitHubIcon
         /></LinkButton>
       </div>
@@ -37,6 +32,13 @@ export default {
     DeployIcon,
     GitHubIcon,
     LinkButton,
+  },
+  props: {
+    name: String,
+    description: String,
+    deploy: String,
+    github: String,
+    image: String,
   },
 };
 </script>
