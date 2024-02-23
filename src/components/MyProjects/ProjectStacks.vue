@@ -1,6 +1,7 @@
 <template>
-  <div class="flex gap-2">
+  <div class="flex gap-1">
     <DynamicIcon
+      class="h-6"
       v-for="stack in stacks"
       :key="stack.id"
       :iconName="stack.icon"

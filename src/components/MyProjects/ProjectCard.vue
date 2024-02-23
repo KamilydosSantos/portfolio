@@ -1,8 +1,8 @@
 <template>
   <div class="bg-customBeige rounded-3xl">
     <img class="rounded-t-3xl" :src="image" alt="" />
-    <div class="p-6">
-      <h3>{{ name }}</h3>
+    <div class="flex flex-col gap-4 p-6">
+      <h3 class="font-bold text-2xl">{{ name }}</h3>
       <p>
         {{ description }}
       </p>

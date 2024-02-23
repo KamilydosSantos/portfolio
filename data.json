@@ -54,7 +54,7 @@
       "id": 3,
       "name": "Ranek",
       "image": "/project.png",
-      "description": "Projeto de venda de produtos eletronicos, sendo possível pesquisar e cadastrar produtos, além de criar, editar, logar e deslogar da conta do usuário.",
+      "description": "Projeto de venda de produtos eletronicos, sendo possível pesquisar e cadastrar produtos, além de criar, editar, logar e deslogar da conta do usuário (Curso de HTML | Origamid).",
       "deploy": "https://github.com/KamilydosSantos/ranek",
       "github": "https://github.com/KamilydosSantos/ranek",
       "stacks": [
