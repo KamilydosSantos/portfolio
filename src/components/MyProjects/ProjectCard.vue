@@ -6,7 +6,7 @@
       <p>
         {{ description }}
       </p>
-      <ProjectStacks />
+      <ProjectStacks :stacks="stacks" />
       <div class="flex gap-4">
         <LinkButton class="flex justify-center" :url="deploy"
           ><DeployIcon
@@ -39,6 +39,7 @@ export default {
     deploy: String,
     github: String,
     image: String,
+    stacks: Array,
   },
 };
 </script>

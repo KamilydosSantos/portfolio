@@ -1,18 +1,23 @@
 <template>
-  <component :is="iconName" />
+  <component :is="iconName"></component>
 </template>
 
 <script>
+import HtmlIcon from "./HtmlIcon.vue";
+import CssIcon from "./CssIcon.vue";
+import JavaScriptIcon from "./JavaScriptIcon.vue";
+import VueJsIcon from "./VueJsIcon.vue";
+
 export default {
   name: "DynamicIcon",
   props: {
     iconName: String,
   },
   components: {
-    HtmlIcon: () => import("./HtmlIcon.vue"),
-    CssIcon: () => import("./CssIcon.vue"),
-    JavaScriptIcon: () => import("./JavaScriptIcon.vue"),
-    VueJsIcon: () => import("./VueJsIcon.vue"),
+    HtmlIcon,
+    CssIcon,
+    JavaScriptIcon,
+    VueJsIcon,
   },
 };
 </script>

@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Bikcraft",
       "image": "/project.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "description": "Site de venda de bicicletas responsivo, com grid e flexbox (Curso de HTML | Origamid).",
       "deploy": "https://github.com/KamilydosSantos/bikcraft",
       "github": "https://github.com/KamilydosSantos/bikcraft",
       "stacks": [
@@ -29,7 +29,7 @@
       "id": 2,
       "name": "Pokédex",
       "image": "/project.png",
-      "description": "Consectetur adipiscing elit, sed do eiusmod tempor.",
+      "description": "Aplicação web que permite navegar por uma lista completa de Pokémons (alimentada pela PokeAPI), contendo informações detalhadas e características únicas ao clicar no pokémon, além de funcionalidade de pesquisa por nome.",
       "deploy": "https://github.com/KamilydosSantos/pokedex",
       "github": "https://github.com/KamilydosSantos/pokedex",
       "stacks": [
@@ -54,7 +54,7 @@
       "id": 3,
       "name": "Ranek",
       "image": "/project.png",
-      "description": "Adipiscing elit, sed do eiusmod tempor.",
+      "description": "Projeto de venda de produtos eletronicos, sendo possível pesquisar e cadastrar produtos, além de criar, editar, logar e deslogar da conta do usuário.",
       "deploy": "https://github.com/KamilydosSantos/ranek",
       "github": "https://github.com/KamilydosSantos/ranek",
       "stacks": [

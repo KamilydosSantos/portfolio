@@ -9,6 +9,7 @@
           :description="project.description"
           :deploy="project.deploy"
           :github="project.github"
+          :stacks="project.stacks"
         />
       </div>
     </div>
