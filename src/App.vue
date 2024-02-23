@@ -3,6 +3,7 @@
     <PersonalPresentation />
     <AboutMe />
     <MyProjects />
+    <GlobalFooter />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import AboutMe from "./components/AboutMe/AboutMe.vue";
 import PersonalPresentation from "./components/PersonalPresentation/PersonalPresentation.vue";
 import MyProjects from "./components/MyProjects/MyProjects.vue";
+import GlobalFooter from "./components/Footer/GlobalFooter.vue";
 
 export default {
   name: "App",
@@ -17,6 +19,7 @@ export default {
     PersonalPresentation,
     AboutMe,
     MyProjects,
+    GlobalFooter,
   },
 };
 </script>

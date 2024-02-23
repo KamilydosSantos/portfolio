@@ -3,12 +3,12 @@
     <div class="bg-customBeige p-2 rounded-xl self-center">
       <CssIcon />
     </div>
-    <div class="bg-customBeige p-2 rounded-xl self-center"><GitIcon /></div>
     <div class="bg-customBeige p-2 rounded-xl self-center"><HtmlIcon /></div>
     <div class="bg-customBeige p-2 rounded-xl self-center">
       <JavaScriptIcon />
     </div>
     <div class="bg-customBeige p-2 rounded-xl self-center"><VueJsIcon /></div>
+    <div class="bg-customBeige p-2 rounded-xl self-center"><GitIcon /></div>
   </div>
 </template>
 
